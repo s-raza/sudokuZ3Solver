@@ -255,7 +255,7 @@ def main(image=None):
             print("[!] Could not extract Sudoku grid from the image: {}\n".format(image))
             exit(0)
     else:
-        problem = PROBLEM_GRID
+        problem = HARDEST
 
 
 
